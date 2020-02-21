@@ -2,7 +2,7 @@
 
  **Description:** The Fork system call is used to create a new process called child process. The child process is an exact copy of the parent process. The return value of Fork() is '0' for child process 'Positive' for parent process and 'Negative' if the process creation fails.
 
- **Eample** code in cpp
+ **Eample** code in c
  
  ```
     #include<stdio.h>
