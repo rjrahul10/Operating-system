@@ -1,7 +1,7 @@
 # WAIT
 **Description:** The wait system call will halt the parent process until child process terminates. After the child process terminates the kernel notifies the parent by sending the SIGCHILD signal to the parent.
 
-**Example** cpp code
+**Example** c code
 ```
 #include<stdio.h>
 #include<sys/types.h>
